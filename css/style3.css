@@ -1,0 +1,484 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/back3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 120px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.button{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.intro{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.intro p{
+	color: #fff;
+	font-size: 25px
+}
+.support{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.support h1{
+	color: #fff;
+	font-size: 20px;
+}
+.subscribe{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.sub{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.sub:hover{
+	background-color: #ff0000;
+	color: #fff;
+}
+.tintro{
+	position: absolute;
+	top: 19%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.tintro h1{
+	color: #fff;
+	font-size: 30px;
+}
+.tintro p{
+	color: #fff;
+	font-size: 20px
+}
+.tbutton{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.tbut{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.tbut:hover{
+	background-color: #fff;
+	color: #000;
+}
+.tab{
+	text-decoration: none;
+	padding: 10px 30px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	background-color: #fff;
+	color: #000;
+}
+.go1{
+	position: absolute;
+	top: 45%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+.go2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.go2 p{
+	color: #fff;
+	font-size: 25px
+}
+.custom1{
+	position: absolute;
+	top: 52%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+.custom2{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.custom2 p{
+	color: #fff;
+	font-size: 25px
+}
+.stock1{
+	position: absolute;
+	top: 54%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+.stock2{
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.stock2 p{
+	color: #fff;
+	font-size: 25px
+}
+.eintro{
+	position: absolute;
+	top: 17%;
+	left: 43%;
+	transform: translate(-50%,-50%);
+}
+.eintro p{
+	color: #fff;
+	font-size: 19px
+}
+.epic{
+	position: absolute;
+	top: 19%;
+	left: 90%;
+	transform: translate(-50%,-50%);
+}
+.ebutton1{
+	position: absolute;
+	top: 27%;
+	left: 36%;
+	transform: translate(-50%,-50%);
+}
+.ebutton2{
+	position: absolute;
+	top: 34.5%;
+	left: 36%;
+	transform: translate(-50%,-50%);
+}
+.ebutton3{
+	position: absolute;
+	top: 42%;
+	left: 36%;
+	transform: translate(-50%,-50%);
+}
+.ebut{
+	border: 0.5px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.ebut:hover{
+	background-color: #fff;
+	color: #000;
+}
+.ebutton4{
+	position: absolute;
+	top: 49.5%;
+	left: 36%;
+	transform: translate(-50%,-50%);
+}
+.ebutton5{
+	position: absolute;
+	top: 57%;
+	left: 36%;
+	transform: translate(-50%,-50%);
+}
+.and1img{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.and1p{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.and1p p{
+	color: #fff;
+	font-size: 18px
+}
+.eclairimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.eclairp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.eclairp p{
+	color: #fff;
+	font-size: 18px
+}
+.gingerbreadimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.gingerbreadp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.gingerbreadp p{
+	color: #fff;
+	font-size: 18px
+}
+.honeycombimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.honeycombp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.honeycombp p{
+	color: #fff;
+	font-size: 18px
+}
+.iceimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.icep{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.icep p{
+	color: #fff;
+	font-size: 18px
+}
+.jellyimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.jellyp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.jellyp p{
+		color: #fff;
+	font-size: 18px
+}
+.kitimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.kitp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.kitp p{
+	color: #fff;
+	font-size: 18px
+}
+.lollimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.lollp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.lollp p{
+	color: #fff;
+	font-size: 18px
+}
+.marshimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.marshp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.marshp p{
+	color: #fff;
+	font-size: 18px
+}
+.nougatimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.nougatp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.nougatp p{
+	color: #fff;
+	font-size: 18px
+}
+.oimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.op{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.op p{
+	color: #fff;
+	font-size: 18px
+}
+.pieimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.piep{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.piep p{
+	color: #fff;
+	font-size: 18px
+}
+.qimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.qp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.qp p{
+	color: #fff;
+	font-size: 18px
+}
+.rimg{
+	position: absolute;
+	top: 82%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+.rp{
+	position: absolute;
+	top: 82%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+}
+.rp p{
+	color: #fff;
+	font-size: 18px
+}
